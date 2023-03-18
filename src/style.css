@@ -1,12 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: white;
-  background-size: cover;
-  background-position: center;
 }
 
 #quote {
@@ -14,15 +16,6 @@
   font-weight: bold;
   text-align: center;
   margin: 2rem;
-  color: black;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.quote-item {
-  width: 25%;
-  text-align: center;
-  margin: 1rem;
+  color: green;
+  cursor: pointer;
 }
